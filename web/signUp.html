@@ -2,18 +2,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="${pageContext.request.contextPath}/css/FacilityManage.css" rel="stylesheet" type="text/css"> -->
+    <!-- 나중엔 링크 새로 짜야됨 -->
+    <link href="signUp.css" rel="stylesheet" type="text/css">
     <title>회원가입</title>
 </head>
 
 <body>
     <form action="#" method="POST">
         <div class="login-page">
-            <div><label>회원 ID: </label><input type="text" id="userId"></div>
-            <div><label>비밀번호: </label><input type="text" id="userPw"></div>
-            <div>성명: </label><input type="text" id="userName"></div><label>
-            <div>전화번호: </label><input type="text" id="userPhoneNum"></div><label>
-            <input type="submit" value="회원가입">
+            <label id = "title">회원가입</label>
+            <div>
+                <label>회원 ID:</label>
+                <input type="text" id="userId">
+            </div>
+            <div>
+                <label>비밀번호: </label>
+                <input type="password" id="userPw">
+            </div>
+            <div>
+                <label>성명: </label>
+                <input type="text" id="userName">
+            </div>
+            <div>
+                <label>전화번호: </label>
+                <input type="text" id="userPhoneNum">
+            </div>
+            <input type="submit" value="회원가입" id="button">
         </div>
     </form>
 

@@ -1,0 +1,25 @@
+.login-page {
+    position: absolute;
+    left:35%;
+    border: solid 1px black;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+
+.login-page > * {
+    font-size: 1.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+#userPhoneNum {
+    margin-bottom: 5rem;
+}
+
+#userId, #userPw, #userName, #userPhoneNum {
+    font-size: 1.5rem;
+}
+#button {
+    font-size: 1rem;
+    
+}
