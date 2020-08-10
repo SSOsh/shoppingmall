@@ -1,0 +1,11 @@
+.table {
+    width:90%;
+    height:auto;
+    border: solid 1px black;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;  
+    text-align: center;
+}
+
+.table-content:hover {
+    background-color: #DDDDDD;
+}

@@ -2,33 +2,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="${pageContext.request.contextPath}/css/FacilityManage.css" rel="stylesheet" type="text/css"> -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <link href="notice.css" rel="stylesheet" type="text/css">
+    <script src="notice.js"></script>
     <title>공지사항</title>
 </head>
 
 <body>
     <form action="#" method="POST">
-        <table border="1">
-            <tr>
-                <td>id</th>
-                <td>제목</td>
-                <td>날짜</td>
-                <td>조회수</td>
+        <table class ="table">
+            <tr class="table-head">
+                <th>id</th>
+                <th>제목</th>
+                <th>날짜</th>
+                <th>조회수</th>
             </tr>
             <!-- 이부분jstl로 하면 될 듯 -->
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+            <tr class="table-content" id="hey">
+                <td>1</td>
+                <td>제목1</td>
+                <td>날짜1</td>
+                <td>123</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+            <tr class="table-content">
+                <td>2</td>
+                <td>제목2</td>
+                <td>날짜2</td>
+                <td>234</td>
             </tr>
         </table>
     </form>
+    <div id="result">
+
+    </div>
 </body>
 </html>
