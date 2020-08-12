@@ -1,0 +1,17 @@
+.goods {
+    display:inline-block;
+    font-size:large;
+    width: 100%;
+    height:auto;
+}
+
+.item > *{
+    font-size:large;
+    
+}
+
+.button {
+    font-size: large;
+    border: solid 1px white;
+    background-color: skyblue;
+}
