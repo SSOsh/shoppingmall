@@ -12,21 +12,23 @@
         <fieldset>
             <legend>상품1</legend>
             <div class = "slide-image">
-                <input type="image" src="#" class="image">
+                <input type="image" src="C:\Users\tngh1\OneDrive\문서\GitHub\myProject\shoppingmall\out\image\14.jpg" class="image">
             </div>
             <!-- 이 뒤로는 jstl같은걸로 추가 -->
             <!-- 이부분은 나중에 select이걸로 바꿀예정 -->
-            <div class = "item">
-                <select id="item-content" onchange="Onchange()">
-                    <option>선택</option>
-                    <option>옵션1</option>
-                    <option>옵션2</option>
-                    <option>옵션3</option>
-                </select>
+            <div class ="content">
+                <div class = "item">
+                    <select id="item-content" onchange="Onchange()">
+                        <option>선택</option>
+                        <option>옵션1</option>
+                        <option>옵션2</option>
+                        <option>옵션3</option>
+                    </select>
+                </div>
+                <input type="submit" class = "button" value ="구매">
+                <input type="submit" class = "button" value ="장바구니">
+                <div>총 상품금액<span>0</span>원</div>
             </div>
-            <input type="submit" class = "button" value ="구매">
-            <input type="submit" class = "button" value ="장바구니">
-            <div>총 상품금액<span>0</span>원</div>
         </fieldset>
     </div>
     <div>설명</div>

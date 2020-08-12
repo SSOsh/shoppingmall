@@ -5,13 +5,32 @@
     height:auto;
 }
 
+.silde-image {
+    display:inline-block;
+}
+
+.content {
+    display:inline-block;
+}
+
+.image {
+    width:30rem;
+    height:auto;
+}
+
+.item {
+    margin:1rem 1rem 1rem 1rem;
+}
+
 .item > *{
     font-size:large;
-    
+    padding: 0.2rem 1rem 0.2rem 1rem;
 }
 
 .button {
     font-size: large;
     border: solid 1px white;
     background-color: skyblue;
+    margin:1rem 1rem 1rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
