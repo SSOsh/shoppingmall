@@ -1,16 +1,16 @@
 .goods {
-    display:inline-block;
+    display:block;
     font-size:large;
     width: 100%;
     height:auto;
 }
 
-.silde-image {
+.goods > * {
     display:inline-block;
 }
 
-.content {
-    display:inline-block;
+.slide-image {
+    margin-right: 5rem;
 }
 
 .image {
