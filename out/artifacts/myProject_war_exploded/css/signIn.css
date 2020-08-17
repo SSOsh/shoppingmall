@@ -1,0 +1,42 @@
+.login-page {
+    position: absolute;
+    left:35%;
+    border: solid 1px black;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+
+.login-page > * {
+    font-size: 1.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
+}
+
+.login-page > .input {
+    text-align: justify;
+}
+
+.login-page > .input > * {
+    display:inline-block;
+}
+
+.login-page > .input > :not(button) {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.login-page > .input > .input-name {
+    float:left;
+}
+.login-page > .input > .input-text {
+    float: right;
+}
+
+
+.login-page > .button {
+    font-size: 1.5rem;
+}
+
+#userId, #userPw {
+    font-size: 1.5rem;
+}
