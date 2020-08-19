@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: tngh1
   Date: 2020-08-17
-  Time: 오후 11:38
+  Time: 오후 11:40
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -12,29 +12,29 @@
     <meta charset="UTF-8">
 
     <style>
-
+        .enrollBtn {
+            float: right;
+            margin-top: 10px;
+        }
+        .inquiryBtn {
+            float: right;
+        }
     </style>
 </head>
 
 <body>
-<%@ include file="../view/ManageMenu.jsp" %>
+<%@ include file="ManageMenu.jsp" %>
 <div class="row">
     <div class="titleC">
-        <h1 class="h1C">회원정보관리</h1>
+        <h1 class="h1C">환불정보관리</h1>
     </div>
 </div>
+<hr>
 
 <div class="container">
     <fieldset class="fieldS">
         <form>
             <div class="inquiryField">
-                <div class="inputGroup">
-                    <div class="inputC">
-                        <span class="text" id="text1">성명</span>
-                    </div>
-                    <input type="text" class="inputText" placeholder="성명" name="name" aria-describedby="base-addon1" autocomplete="off">
-                </div>
-
                 <div class="inputGroup">
                     <div class="inputC">
                         <span class="text" id="text2">회원ID</span>
@@ -48,22 +48,26 @@
             </div>
         </form>
     </fieldset>
+    <br>
 
     <div class="enrollBtn">
-        <button id="mEnrollBtn" type="button">등록</button>
+        <div class="rEnrollBtn">
+            <button type="button" class="refundEnrollBtn" onclick="enrollPopup()">추가</button>
+        </div>
     </div>
 
-    <div class="inquiryTable">
+    <div class="refundTable">
         <div style="width: 100%; height: 600px; overflow: auto">
             <div class="tableD">
-                <table class="memberTable">
+                <table class="refundInfoTable">
                     <thead>
                     <tr>
                         <th style="width: 10%">no.</th>
                         <th style="width: 20%">회원ID</th>
-                        <th style="width: 25%">비밀번호</th>
-                        <th style="width: 15%">성명</th>
-                        <th style="width: 30%">전화번호</th>
+                        <th style="width: 10%">상품ID</th>
+                        <th style="width: 10%">상품갯수</th>
+                        <th style="width: 20%">환불금액</th>
+                        <th style="width: 20%">환불시간</th>
                         <th style="width: 10%"></th>
                     </tr>
                     </thead>

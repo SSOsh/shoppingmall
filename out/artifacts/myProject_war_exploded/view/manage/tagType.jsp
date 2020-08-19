@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<%@ include file="../view/ManageMenu.jsp" %>
+<%@ include file="ManageMenu.jsp" %>
 <div class="row">
     <div class="titleC">
         <h1 class="h1C">태그관리</h1>

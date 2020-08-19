@@ -17,6 +17,7 @@
             height: 90px;
             width: 100%;
             background-color: #CED8F6;
+            display:block;
         }
         #title {
             font-size: 25px;

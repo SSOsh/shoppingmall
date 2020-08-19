@@ -16,6 +16,7 @@
 </head>
 <body>
 <%@ include file="../top.jsp" %>
+<%@ include file="../Menu.jsp" %>
 <div class ="side-bar">
     <div class="side-name">my 쇼핑</div>
     <div class="side-menu" onclick="first()">회원정보관리</div>

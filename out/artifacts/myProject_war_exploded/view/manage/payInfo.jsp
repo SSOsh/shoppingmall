@@ -23,13 +23,12 @@
 </head>
 
 <body>
-<%@ include file="../view/ManageMenu.jsp" %>
+<%@ include file="ManageMenu.jsp" %>
 <div class="row">
     <div class="titleC">
-        <h1 class="h1C">환불정보관리</h1>
+        <h1 class="h1C">결제정보관리</h1>
     </div>
 </div>
-<hr>
 
 <div class="container">
     <fieldset class="fieldS">
@@ -51,23 +50,23 @@
     <br>
 
     <div class="enrollBtn">
-        <div class="rEnrollBtn">
-            <button type="button" class="refundEnrollBtn" onclick="enrollPopup()">추가</button>
+        <div class="pEnrollBtn">
+            <button type="button" class="payEnrollBtn" onclick="enrollPopup()">추가</button>
         </div>
     </div>
 
-    <div class="refundTable">
+    <div class="payTable">
         <div style="width: 100%; height: 600px; overflow: auto">
             <div class="tableD">
-                <table class="refundInfoTable">
+                <table class="payInfoTable">
                     <thead>
                     <tr>
                         <th style="width: 10%">no.</th>
                         <th style="width: 20%">회원ID</th>
                         <th style="width: 10%">상품ID</th>
                         <th style="width: 10%">상품갯수</th>
-                        <th style="width: 20%">환불금액</th>
-                        <th style="width: 20%">환불시간</th>
+                        <th style="width: 20%">결제금액</th>
+                        <th style="width: 20%">결제시간</th>
                         <th style="width: 10%"></th>
                     </tr>
                     </thead>

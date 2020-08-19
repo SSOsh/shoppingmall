@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<%@ include file="../view/ManageMenu.jsp" %>
+<%@ include file="ManageMenu.jsp" %>
 <div class="row">
     <div class="titleC">
         <h1 class="h1C">상품관리</h1>
