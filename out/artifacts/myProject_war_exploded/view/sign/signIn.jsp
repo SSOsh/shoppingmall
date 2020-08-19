@@ -26,7 +26,7 @@
             <div class="input-name">비밀번호: </div><div class="input-text"><input type="password" id="userPw"></div>
         </div><br><br><br><br><br>
         <input type="submit" class ="button" value="로그인">
-        <input type="button" class ="button" value="취소" onclick='cancel()'>
+        <input type="button" class ="button" value="취소" onclick="back()" >
     </div>
 </form>
 </body>

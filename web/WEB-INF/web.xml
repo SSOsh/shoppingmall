@@ -6,6 +6,7 @@
 
     <display-name>shoppingmall</display-name>
     <welcome-file-list>
+        <welcome-file>view/mypage/mypageDefault.jsp</welcome-file>
         <welcome-file>view/payInfo.jsp</welcome-file>
     </welcome-file-list>
 

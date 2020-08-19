@@ -15,6 +15,8 @@
         #topMenu {
             height: 30px;
             width: 100%;
+            display:inline-block;
+            margin-bottom:1rem;
         }
         #topMenu ul li {
             list-style: none;
@@ -42,13 +44,12 @@
 <body>
 <nav id="topMenu">
     <ul id="list">
-        <li class="tag"><a href="purchaseLog">구매로그 조회</a></li>
-        <li class="tag"><a href="notice">공지사항 관리</a></li>
-        <li class="tag"><a href="member">회원정보 관리</a></li>
-        <li class="tag"><a href="item">종류별품목 관리</a></li>
-        <li class="tag"><a href="tagType">태그종류 관리</a></li>
-        <li class="tag"><a href="payInfo">결제정보 관리</a></li>
-        <li class="tag"><a href="refundInfo">환불정보 관리</a></li>
+        <li class="tag"><a href="noticeManage.jsp">공지사항 관리</a></li>
+        <li class="tag"><a href="MemberManage.jsp">회원정보 관리</a></li>
+        <li class="tag"><a href="item.jsp">종류별품목 관리</a></li>
+        <li class="tag"><a href="tagType.jsp">태그종류 관리</a></li>
+        <li class="tag"><a href="payInfo.jsp">결제정보 관리</a></li>
+        <li class="tag"><a href="refund.jsp">환불정보 관리</a></li>
     </ul>
 </nav>
 </body>

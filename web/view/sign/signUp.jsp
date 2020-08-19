@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 나중엔 링크 새로 짜야됨 -->
-    <link href="../css/signUp.css" rel="stylesheet" type="text/css">
+    <link href="../../css/signUp.css" rel="stylesheet" type="text/css">
     <script src="signUp.js"></script>
     <title>회원가입</title>
 </head>

@@ -15,6 +15,7 @@
         #topMenu {
             height: 30px;
             width: 100%;
+            display:block;
         }
         #topMenu ul li {
             list-style: none;

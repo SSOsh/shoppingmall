@@ -10,15 +10,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/mypageDefault.css" rel="stylesheet" type="text/css">
+    <link href="../../css/mypageDefault.css" rel="stylesheet" type="text/css">
+    <script src="../../js/mypageDefault.js"></script>
     <title>마이페이지</title>
 </head>
 <body>
+<%@ include file="../top.jsp" %>
 <div class ="side-bar">
     <div class="side-name">my 쇼핑</div>
-    <div class="side-menu">회원정보관리</div>
-    <div class="side-menu">결제 및 환불</div>
-    <div class="side-menu">장바구니</div>
+    <div class="side-menu" onclick="first()">회원정보관리</div>
+    <div class="side-menu" onclick="second()">결제 및 환불</div>
+    <div class="side-menu" onclick="third()">장바구니</div>
 </div>
 </body>
 </html>

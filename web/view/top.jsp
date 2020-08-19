@@ -52,9 +52,9 @@
 <div id="topBar">
     <span id="title">쇼핑몰입니당~,~</span>
     <div class="btn">
-        <button class="btnC" id="loginBtn"><a href="login">로그인</a></button>
-        <button class="btnC" id="joinBtn"><a href="join">회원가입</a></button>
-        <button class="btnC" id="myPageBtn"><a href="myPage">마이페이지</a></button>
+        <button class="btnC" id="loginBtn"><a href="../sign/signIn.jsp">로그인</a></button>
+        <button class="btnC" id="joinBtn"><a href="../sign/signUp.jsp">회원가입</a></button>
+        <button class="btnC" id="myPageBtn"><a href="../mypage/mypageDefault.jsp">마이페이지</a></button>
     </div>
     <div class="search">
         <textarea id="search"></textarea>

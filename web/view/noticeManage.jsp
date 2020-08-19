@@ -19,6 +19,7 @@
 </head>
 
 <body>
+<%@ include file="../view/ManageMenu.jsp" %>
 <div class="row">
     <div class="titleC">
         <h1 class="h1C">공지사항</h1>
