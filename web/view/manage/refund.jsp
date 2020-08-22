@@ -23,7 +23,7 @@
 </head>
 
 <body>
-<%@ include file="ManageMenu.jsp" %>
+<%@ include file="manageMenu.jsp" %>
 <div class="row">
     <div class="titleC">
         <h1 class="h1C">환불정보관리</h1>

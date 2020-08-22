@@ -45,7 +45,7 @@
 <nav id="topMenu">
     <ul id="list">
         <li class="tag"><a href="noticeManage.jsp">공지사항 관리</a></li>
-        <li class="tag"><a href="MemberManage.jsp">회원정보 관리</a></li>
+        <li class="tag"><a href="memberManage.jsp">회원정보 관리</a></li>
         <li class="tag"><a href="item.jsp">종류별품목 관리</a></li>
         <li class="tag"><a href="tagType.jsp">태그종류 관리</a></li>
         <li class="tag"><a href="payInfo.jsp">결제정보 관리</a></li>
